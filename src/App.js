@@ -12,6 +12,7 @@ import ParentComponent from './ParentComponent';
 function App() {
   return (
     <div className="App">
+      <ParentComponent />
       {/* <EventBind /> */}
       {/* <Counter /> */}
       {/* <Message  /> */}
