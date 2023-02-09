@@ -1,16 +1,24 @@
 // import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import SearchBar from './components/Searchbar';
+import ListPage from './components/ListPage';
+import BlogList from './components/BlogList';
+
 function App() {
 
-  const title = 'Welcome to the new blog';
-  const likes = 50;
+  
+
+
   return (
     <div className="App">
       <Navbar />
      <div className="content">
+      
+      
       <Home />
-     </div>
+      
+      </div>
     </div>
   );
 }
